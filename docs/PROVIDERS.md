@@ -9,7 +9,7 @@ Bundled providers and where to get keys. All have **native Anthropic-compatible*
 | Use case | Top free pick | Top paid pick |
 |---|---|---|
 | `coding-fast` Hızlı kod / refactor | Z.ai · `glm-4.7-flash` | DeepSeek · `deepseek-v4-flash` |
-| `refactor` Ağır refactor | MiniMax · `MiniMax-M2.7` (trial) | DeepSeek · `deepseek-v4-pro` |
+| `refactor` Ağır refactor | MiniMax · `MiniMax-M3` (trial) | DeepSeek · `deepseek-v4-pro` |
 | `long-context` >200K context | Z.ai · `glm-5.1` (paid) / Z.ai `glm-4.7-flash` (free) | Moonshot · `kimi-k2.5` |
 | `cheap-agent` Yüksek hacim agent | OpenRouter · `z-ai/glm-4.5-air:free` | DeepSeek · `deepseek-v4-flash` |
 | `vision` Multimodal | OpenRouter · `google/gemma-4-31b-it:free` | (yok bundled) |
@@ -33,8 +33,8 @@ claudex add claude5 --provider zai
 
 - **Key URL**: https://platform.minimax.io/user-center/basic-information/interface-key
 - **Base URL**: `https://api.minimax.io/anthropic`
-- **Default models**: `MiniMax-M2.7` (main), `MiniMax-M2.7-highspeed` (small)
-- **Note**: Trial credits expire 30 days from issue, but new credits are issued each cycle through Nov 7 2026. M2.7 matches Claude Opus 4.6 on SWE-Pro (56%).
+- **Default models**: `MiniMax-M3` (main), `MiniMax-M3-highspeed` (small)
+- **Note**: Trial credits expire 30 days from issue, but new credits are issued each cycle through Nov 7 2026. M3 matches Claude Opus 4.6 on SWE-Pro (56%).
 
 ```
 claudex add claude6 --provider minimax

@@ -36,8 +36,8 @@ describe("schema backwards compatibility", () => {
   it("MiniMax trial models flag pricing.trial=true", () => {
     const reg = loadRegistry();
     const mm = reg.providers.find((p) => p.id === "minimax");
-    const m27 = mm!.models.find((m) => m.id === "MiniMax-M2.7");
-    expect(m27!.pricing).toBeTruthy();
-    expect(m27!.pricing!.trial).toBe(true);
+    const m3 = mm!.models.find((m) => m.id === "MiniMax-M3");
+    expect(m3!.pricing).toBeTruthy();
+    expect(m3!.pricing!.trial).toBe(true);
   });
 });

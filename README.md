@@ -104,7 +104,7 @@ claudex --lang en                  # İngilizce output
 |----|------|------|---------|
 | `anthropic` | Resmi | https://console.anthropic.com | (default) |
 | `zai` | **ÜCRETSİZ FOREVER** | https://z.ai | GLM-4.7-Flash |
-| `minimax` | **ÜCRETSİZ TRIAL** (Kasım 7 2026) | https://platform.minimax.io | M2.7 |
+| `minimax` | **ÜCRETSİZ TRIAL** (Kasım 7 2026) | https://platform.minimax.io | M3 |
 | `deepseek` | Ucuz ödemeli | https://platform.deepseek.com | deepseek-v4-pro |
 | `moonshot` | Ödemeli (long-context uzmanı) | https://platform.moonshot.ai | Kimi K2.5 |
 | `openrouter` | 32 ücretsiz model | https://openrouter.ai | qwen3-coder:free |

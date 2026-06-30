@@ -65,17 +65,17 @@
         "keyUrl": "https://platform.minimax.io/user-center/basic-information/interface-key",
         "needsKey": true,
         "instructions": {
-          "tr": "1) https://platform.minimax.io → kayıt ol  2) User Center → API Keys → Create  3) Key kopyala. MiniMax-M2.7 Claude Opus 4.6 seviyesinde (SWE-Pro %56). Trial credits 30 gün geçerli, trial dönemi 7 Kasım 2026'a kadar uzatılmış.",
-          "en": "1) https://platform.minimax.io → register  2) User Center → API Keys → Create  3) Copy key. MiniMax-M2.7 matches Claude Opus 4.6 (56% SWE-Pro). Trial credits valid 30 days; trial period extended through Nov 7 2026."
+          "tr": "1) https://platform.minimax.io → kayıt ol  2) User Center → API Keys → Create  3) Key kopyala. MiniMax-M3 Claude Opus 4.6 seviyesinde (SWE-Pro %56). Trial credits 30 gün geçerli, trial dönemi 7 Kasım 2026'a kadar uzatılmış.",
+          "en": "1) https://platform.minimax.io → register  2) User Center → API Keys → Create  3) Copy key. MiniMax-M3 matches Claude Opus 4.6 (56% SWE-Pro). Trial credits valid 30 days; trial period extended through Nov 7 2026."
         }
       },
       "models": [
-        { "id": "MiniMax-M2.7", "role": "main", "free": true, "context": 204800, "note": "60 tps, Opus 4.6 seviyesi", "useCases": ["refactor", "long-context", "multi-agent", "free-trial"], "pricing": { "inputPer1M": 0, "outputPer1M": 0, "trial": true } },
-        { "id": "MiniMax-M2.7-highspeed", "role": "small", "free": true, "context": 204800, "note": "100 tps highspeed", "useCases": ["coding-fast", "cheap-agent", "cheap-batch", "free-trial"], "pricing": { "inputPer1M": 0, "outputPer1M": 0, "trial": true } },
+        { "id": "MiniMax-M3", "role": "main", "free": true, "context": 204800, "note": "60 tps, Opus 4.6 seviyesi", "useCases": ["refactor", "long-context", "multi-agent", "free-trial"], "pricing": { "inputPer1M": 0, "outputPer1M": 0, "trial": true } },
+        { "id": "MiniMax-M3-highspeed", "role": "small", "free": true, "context": 204800, "note": "100 tps highspeed", "useCases": ["coding-fast", "cheap-agent", "cheap-batch", "free-trial"], "pricing": { "inputPer1M": 0, "outputPer1M": 0, "trial": true } },
         { "id": "MiniMax-M2.5", "role": "main", "free": true, "context": 204800, "useCases": ["refactor", "long-context", "free-trial"], "pricing": { "inputPer1M": 0, "outputPer1M": 0, "trial": true } },
         { "id": "MiniMax-M2.5-highspeed", "role": "small", "free": true, "context": 204800, "useCases": ["coding-fast", "cheap-agent", "free-trial"], "pricing": { "inputPer1M": 0, "outputPer1M": 0, "trial": true } }
       ],
-      "defaults": { "main": "MiniMax-M2.7", "small": "MiniMax-M2.7-highspeed" },
+      "defaults": { "main": "MiniMax-M3", "small": "MiniMax-M3-highspeed" },
       "notes": {
         "tr": "v0.1'in en güçlü trial-free modeli. Trial bitince paid plana geçer ($10/ay token plan).",
         "en": "Strongest trial-free model in v0.1. Switches to paid plan after trial ($10/mo token plan)."
